@@ -23,6 +23,13 @@ public class CollegeRecord {
         list.add(new Student(266, "Sanvi Pandey", 17, "Female", "Electric", 2019, 72.4));
         list.add(new Student(277, "Anuj Chettiar", 18, "Male", "Computer Science", 2017, 57.5));
 
+     
+        //Calling method for method execution
+        methodCalling();
+    }
+    
+   public static void methodCalling()
+    {
         FindAllDetails findAllDetails=new FindAllDetails();
         //Part-1:Print the name of all the department
         System.out.println("Get all department name: ");
